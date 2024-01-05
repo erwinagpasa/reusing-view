@@ -11,6 +11,8 @@
 		8B7AE9742B4865A20051D1A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AE9732B4865A20051D1A0 /* ContentView.swift */; };
 		8B7AE9762B4865A50051D1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7AE9752B4865A50051D1A0 /* Assets.xcassets */; };
 		8B7AE9792B4865A50051D1A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7AE9782B4865A50051D1A0 /* Preview Assets.xcassets */; };
+		8B7AE9802B4868A40051D1A0 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AE97F2B4868A40051D1A0 /* TestView.swift */; };
+		8B7AE9822B4869700051D1A0 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AE9812B4869700051D1A0 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8B7AE9732B4865A20051D1A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B7AE9752B4865A50051D1A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B7AE9782B4865A50051D1A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B7AE97F2B4868A40051D1A0 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		8B7AE9812B4869700051D1A0 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				8B7AE9712B4865A20051D1A0 /* ReusingViewApp.swift */,
 				8B7AE9732B4865A20051D1A0 /* ContentView.swift */,
+				8B7AE97F2B4868A40051D1A0 /* TestView.swift */,
+				8B7AE9812B4869700051D1A0 /* CustomButton.swift */,
 				8B7AE9752B4865A50051D1A0 /* Assets.xcassets */,
 				8B7AE9772B4865A50051D1A0 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7AE9822B4869700051D1A0 /* CustomButton.swift in Sources */,
+				8B7AE9802B4868A40051D1A0 /* TestView.swift in Sources */,
 				8B7AE9742B4865A20051D1A0 /* ContentView.swift in Sources */,
 				8B7AE9722B4865A20051D1A0 /* ReusingViewApp.swift in Sources */,
 			);
