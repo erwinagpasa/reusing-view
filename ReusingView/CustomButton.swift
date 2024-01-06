@@ -9,7 +9,11 @@ import SwiftUI
 
 struct CustomButton: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      Button(action: {
+        
+      }, label: {
+        /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+      })
     }
 }
 
