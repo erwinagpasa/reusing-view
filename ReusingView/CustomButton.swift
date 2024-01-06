@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct CustomButton: View {
+  
+  var buttonText: String = "My Button"
+
     var body: some View {
       Button(action: {
         
       }, label: {
-        /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+        Text(buttonText)
+          .padding(10)
+          .border(Color.blue)
+
       })
     }
 }
